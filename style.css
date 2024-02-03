@@ -1,0 +1,52 @@
+
+
+.container{
+    background-color:cadetblue;
+
+    display: flex;
+    flex-direction:column;
+    width: 43%;
+    margin: auto;
+}
+.title{
+    text-align: center;
+}
+.adding-Tasks {
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.addButton{
+border-radius: 2px;
+background-color: blue;
+color: white;
+font-size: 12px;
+}
+
+ul{
+list-style: none;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    gap:2.5px;
+
+}
+
+li {
+        width: 80%;
+        background-color: chartreuse;
+        display: flex;
+        gap: 1px;
+        align-items: center;
+        border: groove;
+
+}
+
+
+.lineThrough {
+
+    text-decoration: line-through;
+
+}
